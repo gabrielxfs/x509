@@ -1,0 +1,22 @@
+{
+  "name": "toy-project",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "A toy project to test another module locally.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toy",
+    "test",
+    "local",
+    "project"
+  ],
+  "author": "Gabriel Silva Pereira",
+  "license": "Unlicense",
+  "dependencies": {
+    "@peculiar/webcrypto": "^1.4.3",
+    "@peculiar/x509": "file:../"
+  }
+}
