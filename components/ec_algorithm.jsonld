@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/ec_algorithm.jsonld#EcAlgorithm",
+      "@type": "Class",
+      "requireElement": "EcAlgorithm",
+      "extends": [
+        "npmd:x509/^1.0.0/components/algorithm.jsonld#IAlgorithm"
+      ],
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/ec_algorithm.jsonld#EcAlgorithm__member_SECP256K1",
+          "memberFieldName": "SECP256K1",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/ec_algorithm.jsonld#EcAlgorithm__member_toAsnAlgorithm",
+          "memberFieldName": "toAsnAlgorithm"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/ec_algorithm.jsonld#EcAlgorithm__member_toWebAlgorithm",
+          "memberFieldName": "toWebAlgorithm"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

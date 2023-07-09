@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/general_name.jsonld#JsonGeneralName",
+      "@type": "AbstractClass",
+      "requireElement": "JsonGeneralName",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/general_name.jsonld#JsonGeneralName__member_type",
+          "memberFieldName": "type"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/general_name.jsonld#JsonGeneralName__member_value",
+          "memberFieldName": "value"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

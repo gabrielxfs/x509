@@ -1,0 +1,90 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlEntryParams",
+      "@type": "AbstractClass",
+      "requireElement": "X509CrlEntryParams",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlEntryParams__member_serialNumber",
+          "memberFieldName": "serialNumber"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlEntryParams__member_revocationDate",
+          "memberFieldName": "revocationDate"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlEntryParams__member_reason",
+          "memberFieldName": "reason"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlEntryParams__member_invalidity",
+          "memberFieldName": "invalidity"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlEntryParams__member_issuer",
+          "memberFieldName": "issuer"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlEntryParams__member_extensions",
+          "memberFieldName": "extensions"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParamsBase",
+      "@type": "AbstractClass",
+      "requireElement": "X509CrlCreateParamsBase",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParamsBase__member_issuer",
+          "memberFieldName": "issuer"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParamsBase__member_thisUpdate",
+          "memberFieldName": "thisUpdate"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParamsBase__member_signingAlgorithm",
+          "memberFieldName": "signingAlgorithm"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParams",
+      "@type": "AbstractClass",
+      "requireElement": "X509CrlCreateParams",
+      "extends": [
+        "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParamsBase"
+      ],
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParams__member_nextUpdate",
+          "memberFieldName": "nextUpdate"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParams__member_extensions",
+          "memberFieldName": "extensions"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParams__member_entries",
+          "memberFieldName": "entries"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParams__member_signingKey",
+          "memberFieldName": "signingKey"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

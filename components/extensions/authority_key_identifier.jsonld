@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/extensions/authority_key_identifier.jsonld#CertificateIdentifier",
+      "@type": "AbstractClass",
+      "requireElement": "CertificateIdentifier",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/extensions/authority_key_identifier.jsonld#CertificateIdentifier__member_name",
+          "memberFieldName": "name"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/extensions/authority_key_identifier.jsonld#CertificateIdentifier__member_serialNumber",
+          "memberFieldName": "serialNumber"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

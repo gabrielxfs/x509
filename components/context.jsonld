@@ -1,0 +1,159 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "px": "npmd:@peculiar/x509/^1.0.0/",
+      "IAsnSignatureFormatter": {
+        "@id": "npmd:x509/^1.0.0/components/asn_signature_formatter.jsonld#IAsnSignatureFormatter",
+        "@prefix": true,
+        "@context": {}
+      },
+      "AlgorithmProvider": {
+        "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#AlgorithmProvider",
+        "@prefix": true,
+        "@context": {}
+      },
+      "UnknownAlgorithm": {
+        "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#UnknownAlgorithm",
+        "@prefix": true,
+        "@context": {}
+      },
+      "IAlgorithm": {
+        "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#IAlgorithm",
+        "@prefix": true,
+        "@context": {}
+      },
+      "RsaAlgorithm": {
+        "@id": "npmd:x509/^1.0.0/components/rsa_algorithm.jsonld#RsaAlgorithm",
+        "@prefix": true,
+        "@context": {}
+      },
+      "EcAlgorithm": {
+        "@id": "npmd:x509/^1.0.0/components/ec_algorithm.jsonld#EcAlgorithm",
+        "@prefix": true,
+        "@context": {}
+      },
+      "EdAlgorithm": {
+        "@id": "npmd:x509/^1.0.0/components/ed_algorithm.jsonld#EdAlgorithm",
+        "@prefix": true,
+        "@context": {}
+      },
+      "IdOrName": {
+        "@id": "npmd:x509/^1.0.0/components/name.jsonld#IdOrName",
+        "@prefix": true,
+        "@context": {}
+      },
+      "JsonAttributeAndStringValue": {
+        "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeAndStringValue",
+        "@prefix": true,
+        "@context": {}
+      },
+      "JsonAttributeObject": {
+        "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeObject",
+        "@prefix": true,
+        "@context": {}
+      },
+      "JsonAttributeAndObjectValue": {
+        "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeAndObjectValue",
+        "@prefix": true,
+        "@context": {}
+      },
+      "PemHeader": {
+        "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemHeader",
+        "@prefix": true,
+        "@context": {}
+      },
+      "PemStruct": {
+        "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemStruct",
+        "@prefix": true,
+        "@context": {}
+      },
+      "Pkcs10CertificateRequestCreateParams": {
+        "@id": "npmd:x509/^1.0.0/components/pkcs10_cert_req_generator.jsonld#Pkcs10CertificateRequestCreateParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "IPublicKeyContainer": {
+        "@id": "npmd:x509/^1.0.0/components/public_key.jsonld#IPublicKeyContainer",
+        "@prefix": true,
+        "@context": {}
+      },
+      "HashedAlgorithm": {
+        "@id": "npmd:x509/^1.0.0/components/types.jsonld#HashedAlgorithm",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CertificateVerifyParams": {
+        "@id": "npmd:x509/^1.0.0/components/x509_cert.jsonld#X509CertificateVerifyParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CertificateCreateParamsBase": {
+        "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CertificateCreateCommonParams": {
+        "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateCommonParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CertificateCreateWithKeyParams": {
+        "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateWithKeyParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CertificateCreateWithSignatureParams": {
+        "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateWithSignatureParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CertificateCreateSelfSignedParams": {
+        "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateSelfSignedParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CrlVerifyParams": {
+        "@id": "npmd:x509/^1.0.0/components/x509_crl.jsonld#X509CrlVerifyParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CrlEntryParams": {
+        "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlEntryParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CrlCreateParamsBase": {
+        "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParamsBase",
+        "@prefix": true,
+        "@context": {}
+      },
+      "X509CrlCreateParams": {
+        "@id": "npmd:x509/^1.0.0/components/x509_crl_generator.jsonld#X509CrlCreateParams",
+        "@prefix": true,
+        "@context": {}
+      },
+      "TextObjectConvertible": {
+        "@id": "npmd:x509/^1.0.0/components/text_converter.jsonld#TextObjectConvertible",
+        "@prefix": true,
+        "@context": {}
+      },
+      "AlgorithmSerializer": {
+        "@id": "npmd:x509/^1.0.0/components/text_converter.jsonld#AlgorithmSerializer",
+        "@prefix": true,
+        "@context": {}
+      },
+      "JsonGeneralName": {
+        "@id": "npmd:x509/^1.0.0/components/general_name.jsonld#JsonGeneralName",
+        "@prefix": true,
+        "@context": {}
+      },
+      "CertificateIdentifier": {
+        "@id": "npmd:x509/^1.0.0/components/extensions/authority_key_identifier.jsonld#CertificateIdentifier",
+        "@prefix": true,
+        "@context": {}
+      }
+    }
+  ]
+}

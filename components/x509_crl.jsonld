@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_crl.jsonld#X509CrlVerifyParams",
+      "@type": "AbstractClass",
+      "requireElement": "X509CrlVerifyParams",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_crl.jsonld#X509CrlVerifyParams__member_publicKey",
+          "memberFieldName": "publicKey"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/rsa_algorithm.jsonld#RsaAlgorithm",
+      "@type": "Class",
+      "requireElement": "RsaAlgorithm",
+      "extends": [
+        "npmd:x509/^1.0.0/components/algorithm.jsonld#IAlgorithm"
+      ],
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/rsa_algorithm.jsonld#RsaAlgorithm__member_toAsnAlgorithm",
+          "memberFieldName": "toAsnAlgorithm"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/rsa_algorithm.jsonld#RsaAlgorithm__member_toWebAlgorithm",
+          "memberFieldName": "toWebAlgorithm"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

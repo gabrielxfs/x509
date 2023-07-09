@@ -1,0 +1,117 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase",
+      "@type": "AbstractClass",
+      "requireElement": "X509CertificateCreateParamsBase",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase__member_serialNumber",
+          "memberFieldName": "serialNumber"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase__member_notBefore",
+          "memberFieldName": "notBefore"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase__member_notAfter",
+          "memberFieldName": "notAfter"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase__member_extensions",
+          "memberFieldName": "extensions"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase__member_signingAlgorithm",
+          "memberFieldName": "signingAlgorithm"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateCommonParams",
+      "@type": "AbstractClass",
+      "requireElement": "X509CertificateCreateCommonParams",
+      "extends": [
+        "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase"
+      ],
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateCommonParams__member_subject",
+          "memberFieldName": "subject"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateCommonParams__member_issuer",
+          "memberFieldName": "issuer"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateWithKeyParams",
+      "@type": "AbstractClass",
+      "requireElement": "X509CertificateCreateWithKeyParams",
+      "extends": [
+        "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateCommonParams"
+      ],
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateWithKeyParams__member_publicKey",
+          "memberFieldName": "publicKey"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateWithKeyParams__member_signingKey",
+          "memberFieldName": "signingKey"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateWithSignatureParams",
+      "@type": "AbstractClass",
+      "requireElement": "X509CertificateCreateWithSignatureParams",
+      "extends": [
+        "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateCommonParams"
+      ],
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateWithSignatureParams__member_signature",
+          "memberFieldName": "signature"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateWithSignatureParams__member_publicKey",
+          "memberFieldName": "publicKey"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateSelfSignedParams",
+      "@type": "AbstractClass",
+      "requireElement": "X509CertificateCreateSelfSignedParams",
+      "extends": [
+        "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateParamsBase"
+      ],
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateSelfSignedParams__member_name",
+          "memberFieldName": "name"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert_generator.jsonld#X509CertificateCreateSelfSignedParams__member_keys",
+          "memberFieldName": "keys"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

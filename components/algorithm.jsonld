@@ -1,0 +1,63 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#AlgorithmProvider",
+      "@type": "Class",
+      "requireElement": "AlgorithmProvider",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#AlgorithmProvider__member_getAlgorithms",
+          "memberFieldName": "getAlgorithms"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#AlgorithmProvider__member_toAsnAlgorithm",
+          "memberFieldName": "toAsnAlgorithm"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#AlgorithmProvider__member_toWebAlgorithm",
+          "memberFieldName": "toWebAlgorithm"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#UnknownAlgorithm",
+      "@type": "AbstractClass",
+      "requireElement": "UnknownAlgorithm",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#UnknownAlgorithm__member_name",
+          "memberFieldName": "name"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#UnknownAlgorithm__member_parameters",
+          "memberFieldName": "parameters"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#IAlgorithm",
+      "@type": "AbstractClass",
+      "requireElement": "IAlgorithm",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#IAlgorithm__member_toAsnAlgorithm",
+          "memberFieldName": "toAsnAlgorithm"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/algorithm.jsonld#IAlgorithm__member_toWebAlgorithm",
+          "memberFieldName": "toWebAlgorithm"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

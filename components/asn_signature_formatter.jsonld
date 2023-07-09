@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/asn_signature_formatter.jsonld#IAsnSignatureFormatter",
+      "@type": "AbstractClass",
+      "requireElement": "IAsnSignatureFormatter",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/asn_signature_formatter.jsonld#IAsnSignatureFormatter__member_toAsnSignature",
+          "memberFieldName": "toAsnSignature"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/asn_signature_formatter.jsonld#IAsnSignatureFormatter__member_toWebSignature",
+          "memberFieldName": "toWebSignature"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemHeader",
+      "@type": "AbstractClass",
+      "requireElement": "PemHeader",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemHeader__member_key",
+          "memberFieldName": "key"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemHeader__member_value",
+          "memberFieldName": "value"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemStruct",
+      "@type": "AbstractClass",
+      "requireElement": "PemStruct",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemStruct__member_type",
+          "memberFieldName": "type"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemStruct__member_headers",
+          "memberFieldName": "headers"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/pem_converter.jsonld#PemStruct__member_rawData",
+          "memberFieldName": "rawData"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

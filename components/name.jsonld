@@ -1,0 +1,58 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/name.jsonld#IdOrName",
+      "@type": "AbstractClass",
+      "requireElement": "IdOrName",
+      "parameters": [],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeAndStringValue",
+      "@type": "AbstractClass",
+      "requireElement": "JsonAttributeAndStringValue",
+      "parameters": [],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeObject",
+      "@type": "AbstractClass",
+      "requireElement": "JsonAttributeObject",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeObject__member_ia5String",
+          "memberFieldName": "ia5String"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeObject__member_utf8String",
+          "memberFieldName": "utf8String"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeObject__member_universalString",
+          "memberFieldName": "universalString"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeObject__member_bmpString",
+          "memberFieldName": "bmpString"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeObject__member_printableString",
+          "memberFieldName": "printableString"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/name.jsonld#JsonAttributeAndObjectValue",
+      "@type": "AbstractClass",
+      "requireElement": "JsonAttributeAndObjectValue",
+      "parameters": [],
+      "constructorArguments": []
+    }
+  ]
+}

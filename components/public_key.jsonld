@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/public_key.jsonld#IPublicKeyContainer",
+      "@type": "AbstractClass",
+      "requireElement": "IPublicKeyContainer",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/public_key.jsonld#IPublicKeyContainer__member_publicKey",
+          "memberFieldName": "publicKey"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

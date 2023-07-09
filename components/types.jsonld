@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/types.jsonld#HashedAlgorithm",
+      "@type": "AbstractClass",
+      "requireElement": "HashedAlgorithm",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/types.jsonld#HashedAlgorithm__member_hash",
+          "memberFieldName": "hash"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/x509_cert.jsonld#X509CertificateVerifyParams",
+      "@type": "AbstractClass",
+      "requireElement": "X509CertificateVerifyParams",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert.jsonld#X509CertificateVerifyParams__member_date",
+          "memberFieldName": "date"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert.jsonld#X509CertificateVerifyParams__member_publicKey",
+          "memberFieldName": "publicKey"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/x509_cert.jsonld#X509CertificateVerifyParams__member_signatureOnly",
+          "memberFieldName": "signatureOnly"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

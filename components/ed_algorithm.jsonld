@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/ed_algorithm.jsonld#EdAlgorithm",
+      "@type": "Class",
+      "requireElement": "EdAlgorithm",
+      "extends": [
+        "npmd:x509/^1.0.0/components/algorithm.jsonld#IAlgorithm"
+      ],
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/ed_algorithm.jsonld#EdAlgorithm__member_toAsnAlgorithm",
+          "memberFieldName": "toAsnAlgorithm"
+        },
+        {
+          "@id": "npmd:x509/^1.0.0/components/ed_algorithm.jsonld#EdAlgorithm__member_toWebAlgorithm",
+          "memberFieldName": "toWebAlgorithm"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

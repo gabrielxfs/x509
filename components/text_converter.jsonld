@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "http://example.org/mycontext.jsonld"
+  ],
+  "@id": "npmd:x509",
+  "components": [
+    {
+      "@id": "npmd:x509/^1.0.0/components/text_converter.jsonld#TextObjectConvertible",
+      "@type": "AbstractClass",
+      "requireElement": "TextObjectConvertible",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/text_converter.jsonld#TextObjectConvertible__member_toTextObject",
+          "memberFieldName": "toTextObject"
+        }
+      ],
+      "constructorArguments": []
+    },
+    {
+      "@id": "npmd:x509/^1.0.0/components/text_converter.jsonld#AlgorithmSerializer",
+      "@type": "AbstractClass",
+      "requireElement": "AlgorithmSerializer",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "npmd:x509/^1.0.0/components/text_converter.jsonld#AlgorithmSerializer__member_toTextObject",
+          "memberFieldName": "toTextObject"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}
